@@ -1,0 +1,349 @@
+@media screen and (min-width: 992px) {
+  .form-element {
+    margin-left: 3%;
+  }
+
+  .label-element {
+    font-size: 22px;
+    font-family: "Roboto";
+  }
+
+  .page {
+    margin-bottom: 50px;
+  }
+
+  .name-input-container {
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  .container-2 {
+    width: 50%;
+  }
+
+  .input-element-name {
+    width: 80%;
+    height: 40px;
+    padding-left: 16px;
+    font-family: "Roboto";
+    font-size: 18px;
+    outline: none;
+    background-color: #ffffff;
+  }
+
+  .input-element-file {
+    height: 50px;
+  }
+
+  .input-element {
+    width: 90%;
+    height: 40px;
+    padding-left: 22px;
+    font-family: "Roboto";
+    font-size: 18px;
+    outline: none;
+    background-color: #ffffff;
+  }
+
+  .error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+
+  .container {
+    margin-bottom: 30px;
+  }
+
+  .select-element {
+    width: 92%;
+    height: 40px;
+    padding-left: 18px;
+    font-family: "Roboto";
+    font-size: 18px;
+    outline: none;
+    background-color: #ffffff;
+  }
+
+  .radio-element {
+    margin-right: 20px;
+  }
+
+  .para {
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+
+  .radio-element-container {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+
+  .label-radio-element {
+    font-size: 16px;
+    font-family: "Roboto";
+  }
+
+  .button {
+    border-width: 0px;
+    color: white;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 15px;
+    font-family: "Roboto";
+    margin-right: 7%;
+    margin-top: 40px;
+  }
+
+  .pre-but {
+    margin-right: 10px;
+  }
+
+  #image {
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+  }
+
+  #last-page {
+    text-align: center;
+    font-size: 38px;
+    font-family: "Roboto";
+    margin-top: 45px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .form-element {
+    margin-left: 5%;
+  }
+
+  .label-element {
+    font-size: 18px;
+    font-family: "Roboto";
+  }
+
+  .page {
+    margin-bottom: 50px;
+  }
+
+  .name-input-container {
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  .para {
+    font-size: 12px;
+    font-family: "Roboto";
+  }
+
+  .container-2 {
+    width: 50%;
+  }
+
+  .input-element-name {
+    width: 80%;
+    height: 30px;
+    padding-left: 16px;
+    font-family: "Roboto";
+    font-size: 14px;
+    outline: none;
+    background-color: #ffffff;
+  }
+
+  .input-element-file {
+    height: 30px;
+  }
+
+  .input-element {
+    width: 90%;
+    height: 30px;
+    padding-left: 16px;
+    font-family: "Roboto";
+    font-size: 14px;
+    outline: none;
+    background-color: #ffffff;
+  }
+
+  .error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 13px;
+  }
+
+  .container {
+    margin-bottom: 30px;
+  }
+
+  .select-element {
+    width: 93%;
+    height: 30px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-size: 16px;
+    outline: none;
+    background-color: #ffffff;
+  }
+
+  .radio-element {
+    margin-right: 14px;
+    padding: 8px;
+  }
+
+  .radio-element-container {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -13px;
+  }
+
+  .label-radio-element {
+    font-size: 13px;
+    font-family: "Roboto";
+  }
+
+  .button {
+    border-width: 0px;
+    color: white;
+    font-family: "Roboto";
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 4%;
+    margin-top: 20px;
+  }
+
+  #image {
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+  }
+
+  #last-page {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto";
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .form-element {
+    margin-left: 10px;
+  }
+
+  .label-element {
+    font-size: 12px;
+    font-family: "Roboto";
+  }
+
+  .page {
+    margin-bottom: 50px;
+  }
+
+  .name-input-container {
+    max-width: 100%;
+  }
+
+  .error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 12px;
+  }
+
+  .para {
+    font-size: 10px;
+    font-family: "Roboto";
+  }
+
+  .select-element {
+    width: 94%;
+    height: 30px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-size: 12px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid black;
+    background-color: #ffffff;
+  }
+
+  .input-element {
+    width: 90%;
+    height: 25px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-size: 12px;
+    outline: none;
+    border-radius: 2px;
+    border: 1px solid black;
+    background-color: #ffffff;
+  }
+
+  .input-element-name {
+    width: 90%;
+    height: 25px;
+    padding-left: 10px;
+    font-family: "Roboto";
+    font-size: 12px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+
+  .radio-element {
+    margin-right: 10px;
+  }
+
+  .radio-element-container {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -15px;
+  }
+
+  .label-radio-element {
+    font-size: 10px;
+    font-family: "Roboto";
+  }
+
+  .container {
+    margin-bottom: 15px;
+  }
+
+  .button {
+    border-width: 0px;
+    margin-right: 2%;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto";
+  }
+
+  #image {
+    background-color: transparent;
+    height: 70px;
+    width: 70px;
+  }
+
+  #last-page {
+    margin-top: 70px;
+    text-align: center;
+    font-family: "Roboto";
+  }
+}
