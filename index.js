@@ -129,7 +129,7 @@ NameElement.addEventListener("blur", function (event) {
     NameElement.style.borderColor = "red";
     NameElement.style.borderWidth = "1px";
   } else if (NameElement.validity.valid === false) {
-    document.getElementById("firstNameErrMsg").textContent = "Invalid Name";
+    document.getElementById("firstNameErrMsg").textContent = "Invalid Data";
     NameElement.style.borderColor = "red";
     NameElement.style.borderWidth = "1px";
   } else {
